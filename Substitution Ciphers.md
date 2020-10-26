@@ -18,7 +18,7 @@ All it takes is 25 attempts to figure out the key and decrypt any message.
 Instead of a key, it uses a *keyword*. <br>
 Algorithm: <br>
 1) The keyword is repeated until its length matches that of the plaintext.<br>
-2) Let P<sub>i</sub> be each number corresponding to each letter  of the plaintext, and `K<sub>i</sub>` be that of the keyword. <br>
+2) Let P<sub>i</sub> be each number corresponding to each letter  of the plaintext, and K<sub>i</sub> be that of the keyword. <br>
 3) Encryption is defined by : **C<sub>i</sub> = (P <sub>i</sub> + K <sub>i</sub>) mod 26**.
 <br><br>
 For example:<br>
